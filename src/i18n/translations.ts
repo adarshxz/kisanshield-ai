@@ -1,0 +1,367 @@
+// Complete English and Hindi Translations for KisanShield AI
+
+export const translations = {
+  en: {
+    // Brand & General
+    brandName: "KisanShield AI",
+    tagline: "From Reactive Farming to Predictive Farming",
+    subTagline: "Predict the risk. Explain the reason. Recommend the action. Measure the outcome.",
+    demoModeNotice: "Demonstration Mode Active — Sample Agricultural Intelligence Data",
+    disclaimerText: "KisanShield AI provides agricultural decision support. Assessments may be uncertain and depend on the quality and freshness of available data. Verify important crop-treatment, irrigation, fertilizer, and financial decisions with trusted local guidance or a qualified agricultural expert.",
+    learnMore: "Learn More",
+    viewDetails: "View Details",
+    save: "Save",
+    cancel: "Cancel",
+    confirm: "Confirm",
+    delete: "Delete",
+    edit: "Edit",
+    close: "Close",
+    back: "Back",
+    submit: "Submit",
+    loading: "Loading...",
+    filter: "Filter",
+    all: "All",
+    search: "Search...",
+    completed: "Completed",
+    pending: "Pending",
+    urgent: "Urgent",
+    refresh: "Refresh Data",
+    resetDemo: "Reset Demo Data",
+    online: "Online",
+    offline: "Offline Mode",
+    syncedJustNow: "Synced just now",
+    pendingSync: "changes pending sync",
+
+    // Navigation
+    nav: {
+      dashboard: "Farm Dashboard",
+      farms: "Farms & Fields",
+      riskRadar: "Crop Risk Radar",
+      cropDoctor: "Crop Doctor AI",
+      actionPlanner: "Action Planner",
+      profitguard: "ProfitGuard Simulator",
+      fieldIntelligence: "Satellite Intelligence",
+      irrigation: "Smart Irrigation",
+      soil: "Soil & Nutrients",
+      communityAlerts: "Community Alerts",
+      insurance: "Crop Loss & Insurance",
+      assistant: "Voice Kisan Assistant",
+      decisionHistory: "Explainable Audit",
+      settings: "Settings & Profile",
+      expertPortal: "Expert Review Desk",
+      farmerMode: "Farmer Workspace",
+      logout: "Sign Out",
+    },
+
+    // Source badges
+    sources: {
+      measured: "Measured (Sensor/Physical)",
+      farmer_reported: "Farmer Reported",
+      trusted_retrieval: "Verified Agronomic Knowledge",
+      model_prediction: "AI Model Prediction",
+      simulated_scenario: "Simulated Scenario",
+      expert_verified: "Expert Verified",
+    },
+
+    // Risk levels
+    riskLevels: {
+      low: "Low Risk",
+      moderate: "Moderate Risk",
+      elevated: "Elevated Risk",
+      high: "High Risk",
+      critical: "Critical Risk",
+    },
+
+    // Dashboard
+    dashboard: {
+      welcome: "Namaste",
+      todaysOverview: "Farm Health & Risk Summary",
+      activeFields: "Active Fields",
+      monitoredCrops: "Monitored Crops",
+      highestRisk: "Highest Risk Alert",
+      tasksDueToday: "Tasks Due Today",
+      lastObservation: "Latest Observation",
+      weatherTitle: "Micro-Climate Intelligence",
+      cropRiskSummary: "Crop Risk Radar Highlights",
+      actionsToday: "Today's Prioritized Actions",
+      cropHealthStatus: "Crop Growth & Condition",
+      recentTimeline: "Decision & Event Timeline",
+      quickActions: "Quick Decision Actions",
+      actionAnalyzePhoto: "Analyze Crop Photo",
+      actionCheckRisks: "Inspect Risk Radar",
+      actionAddObservation: "Record Observation",
+      actionCreateTask: "Add Farm Task",
+      actionCalculateCosts: "Simulate Economics",
+      actionAskAssistant: "Ask Voice Assistant",
+    },
+
+    // Crop Doctor
+    cropDoctor: {
+      title: "Multimodal Crop Doctor",
+      subtitle: "Farmer-friendly visual assessment with explainable causes and safe agronomic steps.",
+      uploadBoxTitle: "Upload Crop Photo or Leaf Close-up",
+      uploadBoxDesc: "Drag and drop or tap to select leaf, stem, or field image (JPG, PNG, WebP up to 10MB)",
+      symptomLabel: "Select Observed Symptoms",
+      spreadLabel: "Pattern of Symptoms in Field",
+      notesPlaceholder: "Describe when you first noticed this, weather conditions, or affected patches...",
+      analyzeBtn: "Analyze Symptoms & Photo",
+      analyzing: "Assessing photo features & local agronomic context...",
+      possibleCausesTitle: "Possible Agronomic Explanations",
+      evidenceHeading: "Supporting Evidence in Observation",
+      missingInfoHeading: "Missing Information Needed",
+      safeStepsHeading: "Safe Recommended Next Steps",
+      cautionTitle: "Important Safety Advisory",
+      requestExpertReview: "Request Human Expert Review",
+      reviewRequestedSuccess: "Case submitted to certified agronomist for verification.",
+    },
+
+    // Risk Radar
+    riskRadar: {
+      title: "Crop Risk Radar",
+      subtitle: "Predictive early warning across disease weather, moisture stress, and extreme heat.",
+      overallRisk: "Overall Field Threat Level",
+      evidenceTitle: "Diagnostic Evidence Stream",
+      recommendedAction: "Recommended Preventative Action",
+      nextStepsPrompt: "What observation would refine this assessment?",
+      escalateToExpert: "Escalate to Agricultural Officer",
+    },
+
+    // Action Planner
+    planner: {
+      title: "Adaptive Farm Action Planner",
+      subtitle: "Daily prioritized farming tasks dynamically adjusted to micro-weather and risk signals.",
+      todayTab: "Today's Work",
+      weekTab: "This Week",
+      completedTab: "Completed",
+      allTab: "All Tasks",
+      addNewTask: "Add New Task",
+      markDone: "Mark Completed",
+      markSkipped: "Skip Task",
+      recordOutcome: "Record Field Outcome",
+      reasonForTask: "Why this task was scheduled:",
+      adaptationNotice: "Recommendation dynamically adapted from weather change.",
+    },
+
+    // ProfitGuard
+    profit: {
+      title: "ProfitGuard — Farm Economics Simulator",
+      subtitle: "Deterministic financial planning and sensitivity simulation before spending capital.",
+      inputHeading: "Crop Economics Assumptions",
+      resultsHeading: "Projected Financial Outcomes",
+      grossRevenue: "Gross Estimated Revenue",
+      totalCost: "Total Input & Operating Cost",
+      netReturn: "Estimated Net Margin / Return",
+      breakEvenPrice: "Break-even Selling Price",
+      roi: "Estimated ROI",
+      adverseScenario: "Adverse (Pest/Drought)",
+      expectedScenario: "Expected Normal",
+      favorableScenario: "Favorable (High Yield)",
+      compareScenarios: "Scenario Comparison",
+      disclaimer: "Deterministic arithmetic model. Does not guarantee yield, market prices, or profits.",
+    },
+
+    // Assistant
+    assistant: {
+      title: "Voice-First Kisan Assistant",
+      subtitle: "Ask questions in Hindi or English about crop diseases, weather risk, or daily actions.",
+      micPrompt: "Tap microphone to speak or type below",
+      listening: "Listening... speak now in Hindi or English",
+      processing: "Thinking with farm intelligence context...",
+      sampleQuestionsTitle: "Suggested Questions for Your Farm",
+    },
+
+    // Decision History
+    decisions: {
+      title: "Explainable Decision Engine & Audit Trail",
+      subtitle: "Transparent audit log connecting risk triggers, evidence, farmer decisions, and field outcomes.",
+      chainHeading: "The Decision Chain",
+      step1: "1. Input Evidence",
+      step2: "2. Risk Assessment",
+      step3: "3. Recommendation",
+      step4: "4. Farmer Action",
+      step5: "5. Observed Outcome",
+    }
+  },
+
+  hi: {
+    // Brand & General
+    brandName: "किसानशील्ड AI",
+    tagline: "प्रतिक्रियाशील खेती से भविष्यसूचक खेती की ओर",
+    subTagline: "जोखिम का पूर्वानुमान करें। कारण समझें। सही कदम उठाएं। परिणाम मापें।",
+    demoModeNotice: "प्रदर्शन मोड सक्रिय — नमूना कृषि आसूचना डेटा",
+    disclaimerText: "किसानशील्ड AI केवल कृषि निर्णय सहायता प्रदान करता है। आकलन अनिश्चित हो सकते हैं और उपलब्ध डेटा की गुणवत्ता पर निर्भर करते हैं। रासायनिक उपचार, सिंचाई, और वित्तीय निर्णयों के लिए स्थानीय कृषि विशेषज्ञ से परामर्श अवश्य लें।",
+    learnMore: "और जानें",
+    viewDetails: "विवरण देखें",
+    save: "सुरक्षित करें",
+    cancel: "रद्द करें",
+    confirm: "पुष्टि करें",
+    delete: "हटाएं",
+    edit: "संपादित करें",
+    close: "बंद करें",
+    back: "पीछे जाएं",
+    submit: "जमा करें",
+    loading: "लोड हो रहा है...",
+    filter: "फ़िल्टर",
+    all: "सभी",
+    search: "खोजें...",
+    completed: "पूर्ण",
+    pending: "लंबित",
+    urgent: "अति आवश्यक",
+    refresh: "डेटा रीफ्रेश करें",
+    resetDemo: "डेमो डेटा रीसेट करें",
+    online: "ऑनलाइन",
+    offline: "ऑफ़लाइन मोड",
+    syncedJustNow: "अभी समन्वयित हुआ",
+    pendingSync: "परिवर्तन समन्वय हेतु लंबित",
+
+    // Navigation
+    nav: {
+      dashboard: "खेत डैशबोर्ड",
+      farms: "खेत और फसलें",
+      riskRadar: "फसल जोखिम रडार",
+      cropDoctor: "क्रॉप डॉक्टर AI",
+      actionPlanner: "कार्य योजनाकार",
+      profitguard: "प्रॉफ़िटगार्ड सिमुलेटर",
+      fieldIntelligence: "उपग्रह आसूचना",
+      irrigation: "स्मार्ट सिंचाई सलाहकार",
+      soil: "मृदा व पोषक तत्व",
+      communityAlerts: "सामुदायिक कीट चेतावनी",
+      insurance: "फसल हानि व बीमा",
+      assistant: "बोलने वाला किसान सहायक",
+      decisionHistory: "पारदर्शी निर्णय ऑडिट",
+      settings: "सेटिंग्स व प्रोफ़ाइल",
+      expertPortal: "कृषि विशेषज्ञ डेस्क",
+      farmerMode: "किसान वर्कस्पेस",
+      logout: "साइन आउट",
+    },
+
+    // Source badges
+    sources: {
+      measured: "मापा गया डेटा (सेंसर/भौतिक)",
+      farmer_reported: "किसान द्वारा दर्ज",
+      trusted_retrieval: "सत्यापित कृषि स्रोत",
+      model_prediction: "AI मॉडल पूर्वानुमान",
+      simulated_scenario: "काल्पनिक परिदृश्य",
+      expert_verified: "विशेषज्ञ द्वारा सत्यापित",
+    },
+
+    // Risk levels
+    riskLevels: {
+      low: "कम जोखिम",
+      moderate: "मध्यम जोखिम",
+      elevated: "बढ़ा हुआ जोखिम",
+      high: "उच्च जोखिम",
+      critical: "गंभीर जोखिम",
+    },
+
+    // Dashboard
+    dashboard: {
+      welcome: "नमस्ते",
+      todaysOverview: "खेत स्वास्थ्य एवं जोखिम सारांश",
+      activeFields: "सक्रिय खेत (प्लॉट)",
+      monitoredCrops: "निगरानी में फसलें",
+      highestRisk: "शीर्ष जोखिम चेतावनी",
+      tasksDueToday: "आज के आवश्यक कार्य",
+      lastObservation: "नवीनतम अवलोकन",
+      weatherTitle: "मौसम और सूक्ष्म-जलवायु स्थिति",
+      cropRiskSummary: "फसल जोखिम रडार झलकियां",
+      actionsToday: "आज के प्राथमिकता वाले कार्य",
+      cropHealthStatus: "फसल विकास एवं स्थिति",
+      recentTimeline: "निर्णय एवं घटनाक्रम टाइमलाइन",
+      quickActions: "त्वरित निर्णय कार्य",
+      actionAnalyzePhoto: "फसल फोटो जांचें",
+      actionCheckRisks: "जोखिम रडार देखें",
+      actionAddObservation: "नया अवलोकन जोड़ें",
+      actionCreateTask: "कार्य जोड़ें",
+      actionCalculateCosts: "लागत-मुनाफ़ा जांचें",
+      actionAskAssistant: "आवाज़ से सवाल पूछें",
+    },
+
+    // Crop Doctor
+    cropDoctor: {
+      title: "मल्टीमॉडल क्रॉप डॉक्टर",
+      subtitle: "पत्ते या फसल की फोटो से संभावित रोग के कारणों और सुरक्षित प्राथमिक उपायों की समझ।",
+      uploadBoxTitle: "फसल या पत्ते की फोटो अपलोड करें",
+      uploadBoxDesc: "फोटो यहां खींचें या फ़ाइल चुनें (JPG, PNG, WebP अधिकतम 10MB)",
+      symptomLabel: "दिख रहे लक्षण चुनें",
+      spreadLabel: "खेत में फैलाव का स्वरूप",
+      notesPlaceholder: "यह लक्षण कब से दिखे, हालिया मौसम कैसा रहा, आदि लिखें...",
+      analyzeBtn: "लक्षण व फोटो का विश्लेषण करें",
+      analyzing: "फोटो और स्थानीय कृषि संदर्भ का आकलन हो रहा है...",
+      possibleCausesTitle: "संभावित कृषि कारण",
+      evidenceHeading: "अवलोकन में मिले प्रमाण",
+      missingInfoHeading: "अतिरिक्त आवश्यक जानकारी",
+      safeStepsHeading: "सुरक्षित अनुशंसित अगले कदम",
+      cautionTitle: "महत्वपूर्ण सुरक्षा चेतावनी",
+      requestExpertReview: "कृषि विशेषज्ञ से समीक्षा का अनुरोध करें",
+      reviewRequestedSuccess: "जांच हेतु कृषि विशेषज्ञ को भेजा गया।",
+    },
+
+    // Risk Radar
+    riskRadar: {
+      title: "फसल जोखिम रडार",
+      subtitle: "रोग-अनुकूल मौसम, पानी की कमी, और अत्यधिक गर्मी की अग्रिम चेतावनी।",
+      overallRisk: "समग्र खेत जोखिम स्तर",
+      evidenceTitle: "नैदानिक प्रमाण प्रवाह",
+      recommendedAction: "अनुशंसित रोकथाम कदम",
+      nextStepsPrompt: "कौन सी अतिरिक्त जानकारी से यह आकलन और सटीक होगा?",
+      escalateToExpert: "कृषि अधिकारी को भेजें",
+    },
+
+    // Action Planner
+    planner: {
+      title: "अनुकूली कृषि कार्य योजनाकार",
+      subtitle: "मौसम और जोखिम संकेतों के अनुसार प्रतिदिन स्वतः समायोजित होने वाले कृषि कार्य।",
+      todayTab: "आज का कार्य",
+      weekTab: "इस सप्ताह",
+      completedTab: "पूर्ण कार्य",
+      allTab: "सभी कार्य",
+      addNewTask: "नया कार्य जोड़ें",
+      markDone: "पूर्ण चिह्नित करें",
+      markSkipped: "छोड़ें (कारण सहित)",
+      recordOutcome: "खेत का परिणाम दर्ज करें",
+      reasonForTask: "यह कार्य क्यों अनुशंसित किया गया:",
+      adaptationNotice: "मौसम में बदलाव के कारण कार्य योजना में समायोजन हुआ।",
+    },
+
+    // ProfitGuard
+    profit: {
+      title: "प्रॉफ़िटगार्ड — कृषि अर्थशास्त्र सिमुलेटर",
+      subtitle: "लागत लगाने से पहले सटीक गणितीय वित्तीय योजना और परिदृश्य तुलना।",
+      inputHeading: "फसल अर्थशास्त्र की मान्यताएं",
+      resultsHeading: "अनुमानित वित्तीय परिणाम",
+      grossRevenue: "अनुमानित कुल आय",
+      totalCost: "कुल लागत व व्यय",
+      netReturn: "अनुमानित शुद्ध लाभ / मार्जिन",
+      breakEvenPrice: "लागत-मुक्त बिक्री मूल्य (Break-even)",
+      roi: "अनुमानित पूंजी पर लाभ (ROI)",
+      adverseScenario: "प्रतिकूल (कीट/सूखा)",
+      expectedScenario: "सामान्य अपेक्षित",
+      favorableScenario: "अनुकूल (उच्च पैदावार)",
+      compareScenarios: "परिदृश्यों की तुलना",
+      disclaimer: "यह पूर्णतः गणितीय मॉडल है। यह किसी निश्चित उपज या मुनाफे की गारंटी नहीं देता।",
+    },
+
+    // Assistant
+    assistant: {
+      title: "बोलने वाला किसान सहायक",
+      subtitle: "फसल रोग, सिंचाई, मौसम या दैनिक कार्यों पर हिंदी या अंग्रेजी में बोलकर पूछें।",
+      micPrompt: "माइक पर टैप करके बोलें या नीचे लिखें",
+      listening: "सुन रहे हैं... कृपया हिंदी या अंग्रेजी में बोलें",
+      processing: "खेत की जानकारी के आधार पर सोच रहे हैं...",
+      sampleQuestionsTitle: "आपके खेत से जुड़े कुछ उपयोगी सवाल",
+    },
+
+    // Decision History
+    decisions: {
+      title: "पारदर्शी निर्णय इंजन व ऑडिट इतिहास",
+      subtitle: "मौसम संकेत, जोखिम विश्लेषण, किसान के कदम और खेत के परिणाम की पारदर्शी शृंखला।",
+      chainHeading: "निर्णय शृंखला",
+      step1: "1. इनपुट प्रमाण",
+      step2: "2. जोखिम आकलन",
+      step3: "3. अनुशंसित कदम",
+      step4: "4. किसान की कार्रवाई",
+      step5: "5. देखा गया परिणाम",
+    }
+  }
+};
